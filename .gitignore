@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ERP/bin/Debug
+/.vs/ERP/v15/Server/sqlite3
+/ERP/obj/Debug
+/packages/EntityFramework.6.1.3
