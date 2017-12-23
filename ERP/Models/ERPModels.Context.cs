@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ERP
+namespace ERP.Models
 {
     using System;
     using System.Data.Entity;

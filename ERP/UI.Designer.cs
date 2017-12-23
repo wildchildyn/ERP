@@ -1,6 +1,6 @@
 ﻿namespace ERP
 {
-    partial class Form1
+    partial class UI
     {
         /// <summary>
         /// Required designer variable.
