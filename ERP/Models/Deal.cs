@@ -12,7 +12,7 @@ namespace ERP.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Deal
+    public partial class Deal : ERPData
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Deal()
@@ -20,13 +20,12 @@ namespace ERP.Models
             this.Books = new HashSet<Book>();
         }
     
-        public int Id { get; set; }
         public string Status { get; set; }
-        public Nullable<int> Cost { get; set; }
-        public Nullable<int> Price { get; set; }
-        public Nullable<int> Profit { get; set; }
-        public Nullable<System.DateTime> Createtime { get; set; }
-        public Nullable<System.DateTime> Updatetime { get; set; }
+        public int Cost { get; set; }
+        public int Price { get; set; }
+        public int Profit { get; set; }
+        public System.DateTime Createtime { get; set; }
+        public System.DateTime Updatetime { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Book> Books { get; set; }

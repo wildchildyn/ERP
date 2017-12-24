@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ERP
+namespace ERP.Models
 {
     public abstract class ERPData
     {
+        public int Id { get; set; }
     }
 }

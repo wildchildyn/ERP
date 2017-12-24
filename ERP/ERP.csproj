@@ -54,6 +54,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Utils\Condition.cs" />
     <Compile Include="Models\Book.cs">
       <DependentUpon>ERPModels.tt</DependentUpon>
     </Compile>

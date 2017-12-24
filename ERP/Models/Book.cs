@@ -12,9 +12,8 @@ namespace ERP.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Book
+    public partial class Book : ERPData
     {
-        public int Id { get; set; }
         public string Title { get; set; }
         public double Length { get; set; }
         public double Width { get; set; }

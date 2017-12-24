@@ -7,3 +7,8 @@
 /ERP/obj/Debug
 /packages/EntityFramework.6.1.3
 /.vs/ERP/v15/.suo
+/ERPTests/bin/Debug
+/ERPTests/obj/Debug
+/packages/EntityFramework.6.2.0
+/packages/MSTest.TestAdapter.1.2.0
+/packages/MSTest.TestFramework.1.2.0
