@@ -8,8 +8,6 @@ using ERP.Utils;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-
-
 namespace ERPTests
 {
     [TestClass]
